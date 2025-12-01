@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación [Nombre] | Construyendo un Futuro Mejor Juntos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container main-header__content">
+            <a href="/" class="main-header__logo">
+                <span class="logo-text">Fundación [Nombre]</span>
+            </a>
+            
+            <nav class="main-header__nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#mision" class="nav-list__link">Nuestra Misión</a></li>
+                    <li><a href="#impacto" class="nav-list__link">Proyectos e Impacto</a></li>
+                    <li><a href="#contacto" class="nav-list__link">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#" class="btn btn--primary btn--donate">DONAR AHORA</a>
+            
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" id="menu-toggle">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-section__content">
+            <h1>Transformando Vidas a Través de la Educación y el Apoyo Comunitario.</h1>
+            <p class="hero-section__subtitle">Con tu ayuda, podemos llevar esperanza y oportunidades a donde más se necesita.</p>
+            
+            <div class="hero-section__actions">
+                <a href="#" class="btn btn--primary btn--large btn--donate">Ver Proyectos y DONAR</a>
+                
+                <a href="#historia" class="btn btn--outline btn--large">Conoce Nuestra Historia</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="stats-section">
+        <div class="container">
+            <h2>Nuestro Impacto en Números</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-item__number">15,000+</span>
+                    <p class="stat-item__label">Personas Ayudadas</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__number">25</span>
+                    <p class="stat-item__label">Proyectos Activos</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__number">98%</span>
+                    <p class="stat-item__label">Fondos Destinados a la Causa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects-section">
+        <div class="container">
+            <h2>Nuestras Causas Activas</h2>
+            <p class="section-subtitle">Tu aporte va directamente a quienes más lo necesitan.</p>
+            
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <div style="background: #ddd; height: 200px; width: 100%;"></div> 
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Educación para Todos</h3>
+                        <p>Proveemos útiles escolares y tutorías a niños en zonas rurales.</p>
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill" style="width: 75%;"></div>
+                        </div>
+                        <p class="progress-text"><strong>$7,500</strong> recaudados de $10,000</p>
+                        
+                        <a href="#" class="btn btn--primary btn--block btn--donate">Donar a esta causa</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <div style="background: #ddd; height: 200px; width: 100%;"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Comedores Comunitarios</h3>
+                        <p>Garantizamos una comida nutritiva al día para 500 familias.</p>
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill" style="width: 40%;"></div>
+                        </div>
+                        <p class="progress-text"><strong>$2,000</strong> recaudados de $5,000</p>
+                        
+                        <a href="#" class="btn btn--primary btn--block btn--donate">Donar a esta causa</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card__image">
+                        <div style="background: #ddd; height: 200px; width: 100%;"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Agua Potable</h3>
+                        <p>Instalación de filtros de agua en comunidades sin acceso seguro.</p>
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill" style="width: 90%;"></div>
+                        </div>
+                        <p class="progress-text"><strong>$9,000</strong> recaudados de $10,000</p>
+                        
+                        <a href="#" class="btn btn--primary btn--block btn--donate">Donar a esta causa</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="historia" class="history-section">
+        <div class="container history-container">
+            <div class="history-content">
+                <span class="section-tag">Nuestra Trayectoria</span>
+                <h2>Más de 10 años sembrando esperanza</h2>
+                <p>Todo comenzó en 2015, cuando un pequeño grupo de voluntarios decidió que no podía quedarse de brazos cruzados ante la necesidad de su comunidad. Lo que empezó como una colecta de alimentos en un garaje, hoy es un movimiento que ha transformado miles de vidas.</p>
+                <p>Nuestra historia no se trata de nosotros, se trata de la resiliencia de las personas a las que servimos y de la generosidad de donantes como tú.</p>
+                <a href="/nosotros" class="btn btn--outline">Leer Historia Completa</a>
+            </div>
+            <div class="history-image">
+                <div class="img-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mision" class="mission-section">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="icon-box">🚀</div> <h3>Nuestra Misión</h3>
+                    <p>Proporcionar recursos educativos, alimentarios y de salud a comunidades vulnerables, empoderando a las personas para que rompan el ciclo de la pobreza y construyan un futuro autosostenible.</p>
+                </div>
+                
+                <div class="mission-divider"></div>
+
+                <div class="mission-card">
+                    <div class="icon-box">👁️</div>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser reconocidos globalmente como un modelo de transparencia y eficacia en la ayuda humanitaria, logrando que ninguna comunidad en nuestra región carezca de las necesidades básicas para el año 2030.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventos" class="events-section">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+            <p class="section-subtitle">Participa, aprende y colabora en nuestras actividades.</p>
+            
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">DIC</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Cena Benéfica Anual</h3>
+                        <p class="event-time">🕗 8:00 PM - Hotel Central</p>
+                        <p>Una noche de gala para recaudar fondos para el programa escolar.</p>
+                        <a href="#" class="link-arrow">Reservar Entrada &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="day">22</span>
+                        <span class="month">ENE</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Jornada de Salud</h3>
+                        <p class="event-time">🕗 9:00 AM - Centro Comunitario</p>
+                        <p>Chequeos médicos gratuitos para niños y ancianos.</p>
+                        <a href="#" class="link-arrow">Ser Voluntario &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-date">
+                        <span class="day">10</span>
+                        <span class="month">FEB</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Maratón "Corre por Ellos"</h3>
+                        <p class="event-time">🕗 6:00 AM - Parque Mirador</p>
+                        <p>5K y 10K familiar. ¡Ven a correr con tu mascota!</p>
+                        <a href="#" class="link-arrow">Inscribirse &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>¿Quieres ser Voluntario?</h2>
+                <p>Únete a nuestro equipo y marca la diferencia con tus propias manos.</p>
+                <ul class="contact-list">
+                    <li>📍 Calle Principal #123, Ciudad</li>
+                    <li>📞 +1 (809) 555-0123</li>
+                    <li>✉️ contacto@fundacion.org</li>
+                </ul>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Cómo te gustaría ayudar?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4 class="footer-col__title">Nuestra Misión</h4>
+                <p>Trabajamos por un mundo más justo y equitativo. Su donación hace esto posible.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-col__title">Links Útiles</h4>
+                <ul class="footer-links">
+                    <li><a href="/informes">Informes Anuales</a></li>
+                    <li><a href="/voluntariado">Voluntariado</a></li>
+                    <li><a href="/politicas">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-col__title">Síguenos</h4>
+                <p>Facebook, Twitter, Instagram...</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Fundación [Nombre]. Desarrollado con Pasión.</p>
+        </div>
+    </footer>
+
+    <div id="modal-donacion" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal">&times;</button>
+            
+            <div id="modal-step-1">
+                <div class="modal-header">
+                    <h3>💚 Elige tu Aporte</h3>
+                    <p>Tu generosidad transforma vidas.</p>
+                </div>
+
+                <div class="donation-options">
+                    <button class="btn-amount" data-amount="10">$10</button>
+                    <button class="btn-amount selected" data-amount="25">$25</button> 
+                    <button class="btn-amount" data-amount="50">$50</button>
+                    <button class="btn-amount" data-amount="100">$100</button>
+                </div>
+
+                <div class="custom-amount">
+                    <label>O ingresa otro monto:</label>
+                    <div class="input-wrapper">
+                        <span>$</span>
+                        <input type="number" placeholder="Monto libre">
+                    </div>
+                </div>
+
+                <button id="btn-process-payment" class="btn btn--primary btn--block btn--large">
+                    CONFIRMAR DONACIÓN
+                </button>
+                <p class="secure-text">🔒 Pago 100% Seguro y Encriptado</p>
+            </div>
+
+            <div id="modal-step-2" style="display: none; text-align: center;">
+                <div class="success-animation">
+                    <div class="checkmark-circle">
+                        <div class="checkmark"></div>
+                    </div>
+                </div>
+                <h3 style="color: var(--color-secondary);">¡Gracias por tu Donación!</h3>
+                <p>Hemos recibido tu aporte correctamente. Te enviaremos el recibo a tu correo.</p>
+                <button class="btn btn--outline" id="btn-close-success">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script> 
+</body>
+</html>
